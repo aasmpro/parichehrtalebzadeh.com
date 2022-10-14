@@ -1,0 +1,16 @@
+@import "./fonts.roboto.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  background-color: #FCFCFC;
+  scroll-behavior: smooth;
+}
+
+* {
+  @apply text-black;
+  font-family: Roboto;
+  line-height: 1.3;
+}
