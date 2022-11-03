@@ -4,5 +4,5 @@ import { LinkButtonName, LinkButton } from "../components/LinkButton";
 import { projects } from "../data";
 
 export const MyWork = () => {
-  return <div>this is my work!</div>;
+  return <p>this is my work!</p>;
 };

@@ -1,26 +1,29 @@
 import React from "react";
 
-import { LinkButtonName } from "../components/LinkButton";
+import PersonalPicture from "../assets/images/ParichehrTalebzadeh.png";
 
 export const Home = () => {
   return (
-    <div className="overflow-x-hidden">
-      <div
-        id="info"
-        className="min-h-screen flex flex-col justify-center items-center">
-        <div className="sm:w-[500px] w-screen p-5 py-20 text-lg select-none">
-          <p className="mb-4">
-            Hi! I'm a Team Leader & Web Developer, currently working as
-            FullStack Developer at
-            <LinkButtonName
-              name="CurrentCompany"
-              useIcon={false}
-              className="mx-2 px-2"
-            />
-            , the world's largest feedback platform that aims to optimize the
-            travel experience from the right hotel to the perfect stay.
-          </p>
+    <div className="flex flex-row justify-between">
+      <div className="flex flex-col justify-between py-6">
+        <div className="text-4xl text-gray-0 font-bold">
+          <div>Parichehr</div>
+          <div className="mt-2">Talebzadeh</div>
         </div>
+        <div className="border-l border-secondary h-full my-3"></div>
+        <div>
+          <div className="text-xl text-gray-1">Product Designer</div>
+          <div className="text-gray-2 font-thin mt-2">
+            Design student since 2017
+          </div>
+        </div>
+      </div>
+      <div>
+        <img
+          className="w-[350px]"
+          src={PersonalPicture}
+          alt="PersonalPicture"
+        />
       </div>
     </div>
   );
