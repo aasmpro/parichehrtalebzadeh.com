@@ -11,7 +11,7 @@ export const Layout = () => {
       </div>
       <div className="flex-grow">
         <div className="min-h-screen flex flex-row items-center">
-          <div className="p-28 pr-36 flex-grow">
+          <div className="pl-28 py-20 pr-36 flex-grow">
             <PageSwitch />
           </div>
         </div>

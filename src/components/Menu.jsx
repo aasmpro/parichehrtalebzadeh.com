@@ -9,7 +9,7 @@ export const Menu = () => {
     ["My Work", "#MyWork"],
     ["Contact Me", "#ContactMe"],
   ];
-  const [tag, setTag] = useState("");
+  const [tag, setTag] = useState(window.location.hash);
 
   return (
     <div className="space-y-20 text-center pt-10">

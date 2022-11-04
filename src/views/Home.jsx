@@ -10,7 +10,7 @@ export const Home = () => {
           <div>Parichehr</div>
           <div className="mt-2">Talebzadeh</div>
         </div>
-        <div className="border-l border-secondary h-full my-3"></div>
+        <div className="border-l-2 border-secondary h-full my-3"></div>
         <div>
           <div className="text-xl text-gray-1">Product Designer</div>
           <div className="text-gray-2 font-thin mt-2">
