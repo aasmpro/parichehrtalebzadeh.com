@@ -1,8 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.70815bd8.css",
-    "main.js": "/static/js/main.3233c459.js",
+    "main.css": "/static/css/main.5a354035.css",
+    "main.js": "/static/js/main.23457ac8.js",
+    "static/media/ParichehrTalebzadeh.com.Golestan.pdf": "/static/media/ParichehrTalebzadeh.com.Golestan.5fb5a996119d2e710987.pdf",
+    "static/media/ParichehrTalebzadeh.com.Polaris.pdf": "/static/media/ParichehrTalebzadeh.com.Polaris.72bce0cbfde2e1eeb0aa.pdf",
+    "static/media/ParichehrTalebzadeh.com.Maaxu.pdf": "/static/media/ParichehrTalebzadeh.com.Maaxu.97ef714a5a8a2b5e1689.pdf",
     "static/media/ParichehrTalebzadeh.png": "/static/media/ParichehrTalebzadeh.30ba45576cbbc813a201.png",
+    "static/media/Maaxu.png": "/static/media/Maaxu.cd4cbe5accef5cdd74a4.png",
+    "static/media/Filala.png": "/static/media/Filala.4832740428244dee3d16.png",
+    "static/media/Golestan.png": "/static/media/Golestan.05321c31567e8d8c6baf.png",
+    "static/media/Polaris.png": "/static/media/Polaris.9604ee2462f27c3e6d39.png",
+    "static/media/LivingMaples.png": "/static/media/LivingMaples.125b9be9133ef82c861f.png",
     "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.e615bbcb258550973c16.ttf",
     "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.b823fc0dbb5a5f0c21bb.ttf",
     "static/media/Roboto-BlackItalic.ttf": "/static/media/Roboto-BlackItalic.fd62a10743bd89a3d97c.ttf",
@@ -20,15 +28,19 @@
     "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.59edf72a325ac2048d60.woff2",
     "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.ebb7a127d2d8ee6f1832.woff2",
     "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.0d03b1bbd1d62c1e1284.ttf",
+    "static/media/NoIcon.png": "/static/media/NoIcon.27eabf26e36bd9ae22ba.png",
     "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.0caf4c6cf244a90efcc5.woff2",
+    "static/media/behance.png": "/static/media/behance.4af4b3f529f73b307724.png",
+    "static/media/email.png": "/static/media/email.c5baa52010e51e5cebbd.png",
+    "static/media/linkedin.png": "/static/media/linkedin.d3c9a1a1671450ab658b.png",
     "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.4baccb548138840fa33a.ttf",
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.afac89562a5301459069.woff2",
     "index.html": "/index.html",
-    "main.70815bd8.css.map": "/static/css/main.70815bd8.css.map",
-    "main.3233c459.js.map": "/static/js/main.3233c459.js.map"
+    "main.5a354035.css.map": "/static/css/main.5a354035.css.map",
+    "main.23457ac8.js.map": "/static/js/main.23457ac8.js.map"
   },
   "entrypoints": [
-    "static/css/main.70815bd8.css",
-    "static/js/main.3233c459.js"
+    "static/css/main.5a354035.css",
+    "static/js/main.23457ac8.js"
   ]
 }
