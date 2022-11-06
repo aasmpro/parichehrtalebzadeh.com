@@ -20,7 +20,7 @@ export const Home = () => {
       </div>
       <div>
         <img
-          className="w-[350px]"
+          className="w-[350px] rounded-md"
           src={PersonalPicture}
           alt="PersonalPicture"
         />

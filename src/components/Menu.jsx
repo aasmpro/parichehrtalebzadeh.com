@@ -12,13 +12,13 @@ export const Menu = () => {
   const [tag, setTag] = useState(window.location.hash);
 
   return (
-    <div className="space-y-20 text-center pt-10">
+    <div className="text-center mt-16 space-y-[75px]">
       {items.map((item) => (
         <div
-          className={`transform ${
+          className={`transform -rotate-90 ${
             tag === item[1]
               ? "text-primary font-bold"
-              : "text-gray-3 -rotate-90"
+              : "text-gray-3 text-sm"
           } `}>
           <Link to={item[1]} title={item[0]} onClick={() => setTag(item[1])}>
             {item[0]}
