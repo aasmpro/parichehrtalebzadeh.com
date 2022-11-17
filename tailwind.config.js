@@ -9,7 +9,6 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        secondary: "#76AEF2",
         main: {
           c00: "#0d1011", // main page title text
           c01: "#1b2022", // main page second text and project title text
@@ -29,7 +28,7 @@ module.exports = {
         },
       },
       fontFamily: {
-        Roboto: ["Roboto"],
+        PatrickHand: ["PatrickHand"],
       },
     },
   },

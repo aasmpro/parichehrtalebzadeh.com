@@ -4,11 +4,11 @@ import PersonalPicture from "../assets/images/ParichehrTalebzadeh.png";
 
 export const Home = () => {
   return (
-    <div className="flex flex-row justify-between">
-      <div className="flex flex-col justify-between py-10 pl-20">
-        <div className="text-6xl text-main-c00">
+    <div className="flex flex-col justify-center h-full">
+      <div className="flex flex-col justify-between h-full py-14 pl-14">
+        <div className="text-7xl text-main-c00">
           <div>Parichehr</div>
-          <div className="mt-2">Talebzadeh</div>
+          <div className="mt-1">Talebzadeh</div>
         </div>
         <div className="border-l-2 border-main-c11 h-full my-3"></div>
         <div>
@@ -18,9 +18,9 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div className="absolute bottom-0 right-1/4 -mr-14">
         <img
-          className="w-[550px] rounded-md -mb-20 mr-32"
+          className="w-[570px]"
           src={PersonalPicture}
           alt="PersonalPicture"
         />

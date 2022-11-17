@@ -13,4 +13,5 @@ body {
   @apply text-main-c00;
   font-family: PatrickHand;
   line-height: 1.3;
+  letter-spacing: 0.05rem;
 }

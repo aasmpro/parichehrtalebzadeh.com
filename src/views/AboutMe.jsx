@@ -1,62 +1,32 @@
 import React from "react";
 
+import { PageHeader } from "../components/PageHeader";
+import { TextHeader } from "../components/TextHeader";
+import { List } from "../components/List";
+
 import { aboutMe } from "../data";
 
 export const AboutMe = () => {
   return (
     <div className="flex flex-col">
-      <div className="flex justify-end">
-        <a
-          className="inline-block bg-main-c08 text-main-c13 py-1 px-3 rounded-md"
-          href="/ParichehrTalebzadeh.CV.pdf"
-          target="_blank">
-          Download CV
-        </a>
-      </div>
+      <PageHeader hasButton={true}>Know me more</PageHeader>
       <div>
-        <div className="text-lg text-gray-1">ME</div>
-        <div className="border-b-2 border-secondary w-[40px] my-1.5"></div>
+        <TextHeader>Me</TextHeader>
         <div>
           {aboutMe.me.map((item) => (
-            <p className="text-gray-2 text-sm">{item}</p>
+            <p className="text-main-c04 text-sm">{item}</p>
           ))}
         </div>
       </div>
       <div className="flex flex-row mt-8 space-x-2">
         <div className="w-1/3">
-          <div className="text-lg text-gray-1">Experience</div>
-          <div className="border-b-2 border-secondary w-[40px] my-1.5"></div>
-          <div className="space-y-4">
-            {aboutMe.experience.map((item) => (
-              <div>
-                <div className="text-gray-2 text-sm font-bold">
-                  {item.title}
-                </div>
-                <div className="text-gray-2 text-sm">{item.location}</div>
-                <div className="text-gray-2 text-xs font-thin">{item.time}</div>
-              </div>
-            ))}
-          </div>
+          <List title="Experience" items={aboutMe.experience} />
         </div>
         <div className="w-1/3">
-          <div className="text-lg text-gray-1">Education</div>
-          <div className="border-b-2 border-secondary w-[40px] my-1.5"></div>
-          <div className="space-y-4">
-            {aboutMe.education.map((item) => (
-              <div>
-                <div className="text-gray-2 text-sm font-bold">
-                  {item.title}
-                </div>
-                <div className="text-gray-2 text-sm">{item.location}</div>
-                <div className="text-gray-2 text-xs font-thin">{item.time}</div>
-              </div>
-            ))}
-          </div>
+          <List title="Education" items={aboutMe.education} />
         </div>
         <div className="w-1/3">
-          <div className="text-lg text-gray-1">Skill</div>
-          <div className="border-b-2 border-secondary w-[40px] my-1.5"></div>
-          <div className="text-gray-2 text-sm">{aboutMe.skill}</div>
+          <List title="Skill" items={aboutMe.skill} isSimpleList={true} />
         </div>
       </div>
     </div>
