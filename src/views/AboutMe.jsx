@@ -7,7 +7,7 @@ export const AboutMe = () => {
     <div className="flex flex-col">
       <div className="flex justify-end">
         <a
-          className="inline-block bg-primary text-white py-1 px-3 rounded-md"
+          className="inline-block bg-main-c08 text-main-c13 py-1 px-3 rounded-md"
           href="/ParichehrTalebzadeh.CV.pdf"
           target="_blank">
           Download CV
