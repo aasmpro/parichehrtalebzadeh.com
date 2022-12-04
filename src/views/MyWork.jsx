@@ -9,7 +9,7 @@ export const MyWork = () => {
   return (
     <div>
       <PageHeader>Design, My way</PageHeader>
-      <div className="grid grid-cols-4 gap-6">
+      <div className="grid md:grid-cols-4 grid-cols-1 gap-6">
         {myWork.map((item) => (
           <Card {...item} />
         ))}

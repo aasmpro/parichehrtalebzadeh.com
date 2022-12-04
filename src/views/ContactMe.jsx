@@ -13,7 +13,7 @@ export const ContactMe = () => {
         <div className="text-main-c08 mb-1">For more works you can checkout my accounts on social medias.</div>
         <div className="text-main-c08">anyway,Let me know if I can help you!</div>
       </div>
-      <div className="grid grid-cols-5 gap-6">
+      <div className="grid md:grid-cols-5 grid-cols-1 gap-6">
         {contactMe.map((item) => (
           <Card {...item} />
         ))}

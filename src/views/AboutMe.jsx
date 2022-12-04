@@ -18,14 +18,14 @@ export const AboutMe = () => {
           ))}
         </div>
       </div>
-      <div className="flex flex-row mt-8 space-x-2">
-        <div className="w-1/3">
+      <div className="flex md:flex-row flex-col mt-8 md:space-x-2 md:space-y-0 space-y-8">
+        <div className="md:w-1/3">
           <List title="Experience" items={aboutMe.experience} />
         </div>
-        <div className="w-1/3">
+        <div className="md:w-1/3">
           <List title="Education" items={aboutMe.education} />
         </div>
-        <div className="w-1/3">
+        <div className="md:w-1/3">
           <List title="Skill" items={aboutMe.skill} isSimpleList={true} />
         </div>
       </div>

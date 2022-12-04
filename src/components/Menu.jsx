@@ -24,18 +24,43 @@ export const Menu = () => {
   const [tag, setTag] = useState(window.location.hash);
 
   return (
-    <div className="mt-10 space-y-6">
-      {items.map((item) => (
-        <div className="flex flex-row justify-center">
-          <Link to={item[0]} title={item[0]} onClick={() => setTag(item[0])}>
-            <img
-              className="w-[20px] rounded-sm"
-              src={tag === item[0] ? item[2] : item[1]}
-              alt="PersonalPicture"
-            />
-          </Link>
+    <div>
+      <div className="hidden md:block">
+        <div className="mt-10 space-y-6">
+          {items.map((item) => (
+            <div className="flex flex-row justify-center">
+              <Link
+                to={item[0]}
+                title={item[0]}
+                onClick={() => setTag(item[0])}>
+                <img
+                  className="w-[20px] rounded-sm"
+                  src={tag === item[0] ? item[2] : item[1]}
+                  alt="PersonalPicture"
+                />
+              </Link>
+            </div>
+          ))}
         </div>
-      ))}
+      </div>
+      <div className="md:hidden">
+        <div className="flex justify-around items-center">
+          {items.map((item) => (
+            <div className="inline-flex flex-row justify-center">
+              <Link
+                to={item[0]}
+                title={item[0]}
+                onClick={() => setTag(item[0])}>
+                <img
+                  className="w-[20px] rounded-sm"
+                  src={tag === item[0] ? item[2] : item[1]}
+                  alt="PersonalPicture"
+                />
+              </Link>
+            </div>
+          ))}
+        </div>
+      </div>
     </div>
   );
 };
